@@ -2,13 +2,13 @@
 <html>
     <body>
         <ul>
-            <% messages.map((msg) => { %>
+            <% messages.map((msg,index) => { %>
                 <li>
-                    <h2><%= msg.text %></h2>
+                    <h2><%= msg.text %><a href="/details/<%= index %>">open</a></h2>
                     <p>sent by <%= msg.user %> on <%= msg.added %></p>
                 </li>
         <% }) %>
         </ul>
-        
+        <a href="/new">NEW MESSAGE</a>
     </body>
 </html>

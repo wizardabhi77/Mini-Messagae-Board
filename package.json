@@ -1,0 +1,22 @@
+{
+  "name": "mini-messagae-board",
+  "version": "1.0.0",
+  "description": "A message board using Node with Express framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizardabhi77/Mini-Messagae-Board.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wizardabhi77/Mini-Messagae-Board/issues"
+  },
+  "homepage": "https://github.com/wizardabhi77/Mini-Messagae-Board#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

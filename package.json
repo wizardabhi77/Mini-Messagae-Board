@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/wizardabhi77/Mini-Messagae-Board#readme",
   "dependencies": {
+    "ejs": "^4.0.1",
     "express": "^5.2.1"
   }
 }

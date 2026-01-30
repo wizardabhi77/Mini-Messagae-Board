@@ -5,7 +5,7 @@
             <% messages.map((msg,index) => { %>
                 <li>
                     <h2><%= msg.text %><a href="/details/<%= index %>">open</a></h2>
-                    <p>sent by <%= msg.user %> on <%= msg.added %></p>
+                    <p>sent by <%= msg.username %> on <%= msg.added %></p>
                 </li>
         <% }) %>
         </ul>
